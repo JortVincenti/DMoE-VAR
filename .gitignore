@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.tmp
+
+# Exclude shell scripts
+*.sh
+
+# Exclude pickle files
+*.plk
+*.pth
+*.npz
+
+
+D2DMoE/shared/*
+shared/*
+local_output/stdout.txt
+D2DMoE/data/*
+data/*
+edm-cifar-image-net/*
+Images/*
+CUDA_Profile_tensorboard/*
